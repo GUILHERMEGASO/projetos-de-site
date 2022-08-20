@@ -1,0 +1,350 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 25
+}
+.material-symbols-outlined {
+    color: #5F6368;
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+}
+.container {
+    width: 100%;
+    max-width: 1238px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.header_left {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.imagem {
+    display: flex;
+    align-items: center;
+    padding: 3px 30px 0px 30px;
+    cursor: pointer;
+}
+.pesquisa {
+    display: flex;
+    border: 1px solid #e1e1e150;
+    border-radius: 30px;
+    height: 46px;
+    width: 100%;
+    max-width: 692px;
+    margin-left: 10px;
+    align-items: center;
+    box-shadow: 0px 2px 5px 1px #e6e6e6;
+}
+.pesquisa:hover {
+    box-shadow: 0px 2px 6px 1px #d4d4d4;
+}
+.lupa {
+    padding: 0px 8px;
+    margin-right: 10px;
+    height: 24px;
+    cursor: pointer;
+}
+.lupa .material-symbols-outlined {
+    font-size: 24px;
+    color: #4285F4;
+}
+.text_area {
+    width: 100%;
+    height: 34px;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+.text_area input {
+    width: 100%;
+    height: 34px;
+    border: none;
+}
+.text_area input:focus-visible {
+    outline: none;
+}
+.teclado {
+    cursor: pointer;
+    padding: 0px 8px;
+    width: 24px;
+    height: 24px;
+}
+.microfone {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    padding: 0px 8px;
+    margin-right: 0px;
+}
+.header_right {
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-right: 10px;
+}
+.settings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 13px;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    cursor:pointer;
+}
+.settings:hover {
+    background-color: #bebebe42;
+}
+.menu_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 13px;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    cursor:pointer;
+}
+.menu_icon:hover {
+    background-color: #bebebe42;
+}
+.conta_icon img {
+    width: 34px;
+    border-radius: 17px;
+}
+.conta_icon img:hover {
+    box-shadow: 0px 0px 4px 1px #00000060;;
+}
+.conta_icon {
+    display: flex;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.menu_p {
+    display: flex;
+    justify-content: center;
+    padding: 25px 30px 0px 30px;
+    border-bottom: 1px solid #E8E8E9;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+}
+
+.ativo {
+    padding-left: 0;
+    margin-top: 4px;
+    color: #1A73E8;
+    border-bottom: 3px solid #4285F4;
+}
+.menu_p_itens {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    font-size: 15px;
+    color: #5F6368;
+}
+.menu_p_itens .material-symbols-outlined {
+    font-size: 17px;
+    margin-right: 5px;
+}
+nav button {
+    width: 103px;
+    height: 29px;
+    margin-left: 70px;
+    border: none;
+    border-radius: 2px;
+    background-color: #fff;
+    cursor: pointer;
+    color: #5F6368;
+}
+nav button:hover {
+    border: 1px solid #dadada;
+    background-color: #f1f1f17e;
+}
+main {
+    display: flex;
+    justify-content: center;
+    padding: 0px 30px;
+}
+.est_resul {
+    height: 43px;
+    line-height: 43px;
+    color: #70757A;
+    font-size: 13px;
+}
+.resultado {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.site {
+    width: 418px;
+    display: flex;
+    cursor: pointer;
+}
+.site > div {
+    display: inline;
+    margin-left: 4px;
+    color: #5F6368;
+}
+.simbulo {
+    font-size: 10px;
+    line-height: 18px;
+    cursor: pointer;
+}
+.tittle {
+    padding: 6px 0px;
+}
+.tittle h3 {
+    color: #003ba0;
+    font-size: 22px;
+    font-weight: normal;
+    margin: 0;
+    cursor: pointer;
+    display: inline;
+}
+.tittle h3:hover {
+    text-decoration: underline;
+}
+.description {
+    width: 600px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #5F6368;
+}
+.info {
+    display: flex;
+    width: 600px;
+}
+.info_itens {
+    margin: 0px 3px;
+}
+.info_itens a {
+    text-decoration: none;
+    color: #00449c;
+    font-size: 14px;
+    line-height: 22px;
+}
+.info_itens a:hover {
+    text-decoration: underline;
+}
+.mesmo {
+    margin-left: 20px;
+}
+.pages {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+
+}
+.pages_numbers {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin-left: -3.5px;
+    margin-bottom: 50px;
+}
+.pages_numbers div {
+    width: 24px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0.7px;
+    color: #255fbd;
+}
+.pages_numbers div a {
+    text-decoration: none;
+}
+.pages_numbers div a:hover {
+    text-decoration: underline;
+}
+.pages_numbers .ativo {
+    color: black;
+    border-bottom: none;
+    text-decoration: none;
+    cursor: initial;
+}
+.pages_numbers .ativo:hover {
+    text-decoration: none;
+}
+footer {
+    background-color: #f2f2f2;
+}
+.borda {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border-bottom: 1px solid #0000001f;
+}
+.area1 {
+    display: flex;
+}
+.area1 .brasil{
+    font-size: 15px;
+    color: #70757A;
+    padding: 15px 0px;
+    border-right: 1px solid #0000001f;
+    width: 60px;
+}
+.area2 {
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    padding: 0px 0px;
+}
+.left,
+.right {
+    display: flex;
+}
+.footer_area_iten {
+    padding: 15px 10px 15px 0px;
+    margin: 0px 10px 10px 0px;
+    font-size: 14px;
+    color: #70757A;
+}
+.area2 a {
+    text-decoration: none;
+}
+.area2 a:hover {
+    text-decoration: underline;
+    color: #70757A;
+}
+.simbulo2 {
+    line-height: 47px;
+    margin-left: 10px;
+    color: #5F6368;
+    font-weight: bolder;
+}

@@ -224,9 +224,6 @@ footer .container {
 .botao_link {
     text-decoration: none;
 }
-.conteudo_title {
-    
-}
 @media only screen and (max-width:800px) {
     .banner .container {
         flex-direction: column;

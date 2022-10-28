@@ -5,30 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style/style.css">
+    <script type="text/javascript" src="script/script.js"></script>
     <title>Página de Apresentação</title>
 </head>
 <body>
     <header>
-        <div class="container">
             <div class="logotipo">Logotipo</div>
-            <div class="social">
-                <a href="">
-                    <div class="icone"><img width="20px" src="assets/imagens/facebook.png" alt="facebook"></div>
-                </a>
-                <a href="">
-                    <div class="icone"><img width="20px" src="assets/imagens/twitter.png" alt="twitter"></div>
-                </a>
-                <a href="">
-                    <div class="icone"><img width="20px" src="assets/imagens/pinterest.png" alt="pinterest"></div>
-                </a>
-                <a href="">
-                    <div class="icone"><img width="20px" src="assets/imagens/linkedin.png" alt="linkedin"></div>
-                </a>
-                <a href="">
-                    <div class="icone"><img width="20px" src="assets/imagens/github.png" alt="github"></div>
-                </a>
+            <div class="pre_social">
+                <div class="social">
+                    <a href="">
+                        <div class="icone"><img width="20px" src="assets/imagens/facebook.png" alt="facebook"></div>
+                    </a>
+                    <a href="">
+                        <div class="icone"><img width="20px" src="assets/imagens/twitter.png" alt="twitter"></div>
+                    </a>
+                    <a href="">
+                        <div class="icone"><img width="20px" src="assets/imagens/pinterest.png" alt="pinterest"></div>
+                    </a>
+                    <a href="">
+                        <div class="icone"><img width="20px" src="assets/imagens/linkedin.png" alt="linkedin"></div>
+                    </a>
+                    <a href="">
+                        <div class="icone"><img width="20px" src="assets/imagens/github.png" alt="github"></div>
+                    </a>
+                </div>
+                <div onclick="abrirMenu()" id="menu" class="menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
             </div>
-        </div>
+            <div id="menu_aberto" class="menu_aberto">
+                <div class="menu_aberto_itens">Home</div>
+                <div class="menu_aberto_itens">Catálogo</div>
+                <div class="menu_aberto_itens">Contato</div>
+                <div class="menu_aberto_itens">Sobre</div>
+            </div>
     </header>
     <main>
         <div class="banner">
@@ -50,7 +62,7 @@
             <div class="container">
                 <div class="conteudo_title">
                     <div>
-                        <h2>Porque o P8 Plus é o melhor</h2>
+                        <h2>Porque o P8 Plus é o melhor?</h2>
                         <p>É o mais custo benefício do mercado, e como pode ver é o mais elegante</p>
                     </div>
                 </div>

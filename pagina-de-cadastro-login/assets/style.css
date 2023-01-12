@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+div.tudo {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(330deg, #170404, #220707, #290303);
+    height: 100vh;
+}
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: #161338;
+}
+div.container_l {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+div.header_left {
+    line-height: 50px;
+    color: white;
+    font-size: 25px;
+    font-family: helvetica;
+    margin-right: 5px;
+}
+div.header_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 190px;
+    width: 100%;
+    line-height: 50px;
+    font-size: 15px;
+}
+div.header_right .header_links {
+    display: flex;
+    width: 100%;
+    max-width: 127px;
+    justify-content: space-between;
+}
+div.header_right a {
+    text-decoration: none;
+    color: white;
+}
+div.menu {
+    width: 35px;
+    height: 25px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+div.menu div {
+    width: 35px;
+    height: 2px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    background-color: white;
+    border-radius: 2px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* #140303 #1c0606 $260303 */
+    width: 100%;
+    height: 100%;
+    
+}
+div.container {
+    max-width: 1350px;
+    width: 100%;
+}
+main section {
+    width: 100%;
+    height: 660px;
+    background-color: #161338;
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+    border-radius: 20px;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Cadastro</title>
     <link rel="stylesheet" href="assets/style/style.css">
     <script type="text/javascript" src="assets/script/script.js"></script>
 </head>
@@ -15,10 +15,10 @@
                 <div class="header_left">Logomarca</div>
                 <div class="header_right">
                     <div class="header_links">
-                        <!-- <div><a href="">Entrar</a></div> -->
-                        <div><a href="../pagina-cadastro/index.html">Cadastrar</a></div>
+                        <div><a href="../pagina-login/index.html">Entrar</a></div>
+                        <!-- <div><a href="">Cadastrar</a></div> -->
                     </div>
-                    <div onclick="abrirMenu()" class="menu" id="menu" id="menua">
+                    <div onclick="abrirMenu()" class="menu" id="menu">
                         <div class="barras_menu"></div>
                         <div class="barras_menu"></div>
                         <div class="barras_menu"></div>
@@ -39,35 +39,36 @@
                 <section class="login_box">
                     <div class="login_left">
                         <div class="login_h1">
-                            <h1>Olá, Seja bem vindo(a) de volta!<h1>
+                            <h1>Olá, Seja bem vindo(a)<h1>
                         </div>
                         <div>
                             <img width="400px" src="assets/imagens/personagem.png" alt="">
                         </div>
                         <div class="login_info">
-                            <p>Faça login para acessar sua conta.</p>
-                            <p>Ou se ainda não possui uma conta <a href="../pagina-cadastro/index.html">Cadastre-se</a> agora.</p>
+                            <p>Cadastre-se para poder criar sua conta</p>
+                            <p>Ou se já possui uma conta, <a href="../pagina-login/index.html">Entre</a></p>
                         </div>
                     </div>
                     <div class="login_right">
                         <div class="div_space_top"></div>
                         <div>
-                            <h2>Login</h2>
+                            <h2>Cadastro</h2>
                         </div>
                         <div>
                             <form action="assets/php/index.php" method="POST">
+                                <div class="input_box"><input type="text" name="nome" placeholder="Nome" autofocus></div>
                                 <div class="input_box">
                                     <input type="email" placeholder="Email" name="email"
-                                    required autofocus>
+                                    required>
                                 </div>
                                 <div class="input_box"><input id="mostrar_senha" type="password" placeholder="Senha"  name="senha"><div onclick="mostrarSenha()" id="olho"></div><div onclick="mostrarSenha()" id="olho2"></div></div>
-                                <div class="input_submit"><input type="submit" value="Entrar"></div>
+                                <div class="input_submit"><input type="submit" value="Cadastrar"></div>
                             </form>
                         </div>
                         <div class="div_space_bottom">
                             <div class="login_help">
                                 <div><a href="#">Preciso de Ajuda</a></div>
-                                <div><a href="#">Esqueci a senha</a></div>
+                                <!-- <div><a href="#">Esqueci a senha</a></div> -->
                             </div>
                         </div>
                     </div>
